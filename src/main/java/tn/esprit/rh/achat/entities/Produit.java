@@ -46,7 +46,7 @@ public class Produit implements Serializable {
 	private Set<DetailFacture> detailFacture;
 	@ManyToOne
 	@JsonIgnore
-	private CategorieProduit categorieProduit;
+	public CategorieProduit categorieProduit;
 	
 
 
