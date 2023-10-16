@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import tn.esprit.rh.achat.entities.Reglement;
 import tn.esprit.rh.achat.entities.Facture;
-
+//test
 public class ReglementTest {
     private Reglement reglement;
 
