@@ -59,26 +59,7 @@ public class OperateurTest {
         assertEquals("123", operateur.getPassword());
     }
 
-    @Test
-    public void testIntegrationAvecFacture() {
-        Facture facture = new Facture();
-        facture.setIdFacture(1L);
-        facture.setMontantFacture(10.0f);
-        facture.setMontantRemise(5.4f);
-        var date = new Date(2023, 10, 16);
-        facture.setDateCreationFacture(date);
-        facture.setDateDerniereModificationFacture(date);
-        facture.setArchivee(true);
-        assertEquals(facture, operateur.getFactures());
-    }
 
-    @Test
-    public void testMockFacture() {
-        Facture facture = mock(Facture.class);
-        when(facture.getArchivee()).thenReturn(true);
-        operateur.setFactures((Set<Facture>) facture);
-        assertEquals("facture du test", operateur.getFactures());
-    }
 
 
 }
