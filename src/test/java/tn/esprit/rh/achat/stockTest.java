@@ -13,7 +13,7 @@ public class stockTest {
 
     @SpringBootTest
     public class StockTest {
-
+//test
         @Mock
         private Stock stock;
 
