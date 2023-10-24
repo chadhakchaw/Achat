@@ -71,7 +71,11 @@
 			<version>0.8.6</version>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>tn.esprit.rh</groupId>
+			<artifactId>achat</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 	<distributionManagement>
 		<repository>
