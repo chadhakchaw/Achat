@@ -36,7 +36,7 @@ public class ReglementTest {
         reglement.setPayee(false); // boolean
     }
 
-    //test
+    //test1
     @Test
     public void testReglementGetterSetter() {
         assertEquals(Long.valueOf(1L), reglement.getIdReglement());
