@@ -11,6 +11,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SecteurActiviteTest {
+//test
 
     @Test
     public void testGetterSetter() {
