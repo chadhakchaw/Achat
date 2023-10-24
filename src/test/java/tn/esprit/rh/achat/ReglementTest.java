@@ -45,6 +45,7 @@ public class ReglementTest {
         assertEquals(false, reglement.getPayee());
     }
 
+    //test 2
     @Test
     public void testIntegrationAvecFacture() {
         // Créez une instance de Facture
