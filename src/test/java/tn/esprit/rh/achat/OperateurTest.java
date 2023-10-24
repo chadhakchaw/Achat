@@ -22,9 +22,9 @@ public class OperateurTest {
     @Test
     public void testOperateurGetterSetter() {
         assertEquals(Long.valueOf(1L), operateur.getIdOperateur());
-        assertEquals("kchaw", operateur.getNom(), "hammami");
-        assertEquals("chadha", operateur.getPrenom(), "arslan");
-        assertEquals("123",operateur.getPassword(),"0000");
+        assertEquals("kchaw", operateur.getNom(), "kchaw");
+        assertEquals("chadha", operateur.getPrenom(), "chadha");
+        assertEquals("123",operateur.getPassword(),"123");
     }
     @Test
     public void testIntegrationAvecFacture() {
