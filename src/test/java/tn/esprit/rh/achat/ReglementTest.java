@@ -158,4 +158,14 @@ public class ReglementTest {
         // Vérifiez que le chiffre d'affaires retourné correspond à celui attendu
         assertEquals(expectedChiffreAffaire, retrievedChiffreAffaire, 0.01f); // Utilisez une marge d'erreur si nécessaire
     }
+    @Test
+    public void testSetPayee() {
+        // Définir l'état de paiement à true
+        reglement.setPayee(true);
+        assertTrue(reglement.getPayee());
+
+        // Définir l'état de paiement à false
+        reglement.setPayee(false);
+        assertFalse(reglement.getPayee());
+    }
 }
