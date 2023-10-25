@@ -99,7 +99,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.6</version>
+				<version>0.8.7</version> <!-- Mettez à jour la version ici -->
 				<executions>
 					<execution>
 						<goals>
@@ -125,6 +125,7 @@
 					</rules>
 				</configuration>
 			</plugin>
+
 
 
 
