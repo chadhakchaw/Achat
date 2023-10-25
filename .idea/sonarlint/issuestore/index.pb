@@ -99,8 +99,6 @@ y
 Isrc/main/java/tn/esprit/rh/achat/services/SecteurActiviteServiceImpl.java,3\2\32b3d8f077f3fcf4a5b9c9bb14cf0639da0bf07d
 d
 4src/main/java/tn/esprit/rh/achat/entities/Stock.java,a\5\a5c49a5cefc42bc70e4059187de7e58eb40bff0f
-a
-1src/test/java/tn/esprit/rh/achat/ProduitTest.java,b\1\b18d34bb99dd113b23b3b7c51d023f00edf3b200
 Z
 *src/test/java/tn/esprit/rh/achat/main.java,7\2\7220b0b0225774a102166ea51c2aced11e745646
 Å
