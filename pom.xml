@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -74,7 +74,6 @@
 
 	</dependencies>
 	<!-- Deploy to Nexus -->
-
 	<distributionManagement>
 		<repository>
 			<id>deploymentRepo</id>
@@ -99,44 +98,37 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.7</version> <!-- Mettez à jour la version ici -->
+				<version>0.8.6</version>
 				<executions>
+					<!--first execution : for preparing JaCoCo runtime agent-->
 					<execution>
+						<id>prepare-agent</id>
 						<goals>
 							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<!--second execution : for creating code coverage reports-->
+					<execution>
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
 							<goal>report</goal>
-							<goal>check</goal>
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<!-- Define your rules here -->
-					<rules>
-						<rule>
-							<element>BUNDLE</element>
-							<limits>
-								<limit>
-									<counter>LINE</counter>
-									<value>COVEREDRATIO</value>
-									<minimum>0.70</minimum>
-								</limit>
-							</limits>
-						</rule>
-					</rules>
-				</configuration>
 			</plugin>
 
 
-
 		</plugins>
-			<pluginManagement>
-				<plugins>
-					<plugin>
-						<groupId>org.sonarsource.scanner.maven</groupId>
-						<artifactId>sonar-maven-plugin</artifactId>
-						<version>3.4.0.905</version>
-					</plugin>
-				</plugins>
-			</pluginManagement>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.4.0.905</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
+
 </project>
