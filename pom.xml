@@ -78,6 +78,7 @@
 			<version>8.0.26</version> <!-- Assurez-vous d'utiliser la version correcte -->
 		</dependency>
 
+
 	</dependencies>
 	<!-- Deploy to Nexus -->
 	<distributionManagement>
