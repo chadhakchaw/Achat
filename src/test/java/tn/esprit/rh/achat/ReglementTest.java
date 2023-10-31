@@ -82,7 +82,7 @@ public class ReglementTest {
         // Mocking
         when(reglementRepository.save(newReglement)).thenReturn(newReglement);
 
-        // Test
+        // Test1
         Reglement addedReglement = reglementService.addReglement(newReglement);
 
         // Assertions
