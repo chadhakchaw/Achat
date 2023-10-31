@@ -1,20 +1,19 @@
 version: "2"
 services:
-  mysqldb:
-    image: mysql:8.0.31
+  achatdb:
+    image: mysql:5.7
     restart: unless-stopped
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - db:/var/lib/mysql
   achat:
     depends_on:
-      - mysqldb
+      - achatdb
     build: ./
     restart: on-failure
-    image: spring-boot
     ports:
-      - 9090:9089
+      - 6868:8080
     volumes:
       - .m2:/root/.m2
     stdin_open: true
