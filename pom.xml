@@ -72,13 +72,19 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.26</version> <!-- Assurez-vous d'utiliser la version correcte -->
+		</dependency>
+
 	</dependencies>
 	<!-- Deploy to Nexus -->
 	<distributionManagement>
 		<repository>
 			<id>deploymentRepo</id>
 			<name>Nexus Repository</name>
-			<url>http://192.168.1.16:8081/repository/maven-releases/</url>
+			<url>http://192.168.63.145:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 	<build>
