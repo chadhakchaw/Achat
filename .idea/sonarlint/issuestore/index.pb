@@ -41,7 +41,3 @@ Z
 *src/test/java/tn/esprit/rh/achat/main.java,7\2\7220b0b0225774a102166ea51c2aced11e745646
 f
 6src/main/java/tn/esprit/rh/achat/AchatApplication.java,b\4\b413c620a5bd35e10018a5ab6033974f72b71423
-C
-src/main/Dockerfile,b\0\b0ab5daa1d6bdc643a0c9cd356d04c84fb6d510f
-K
-src/main/Docker-compose.yml,9\9\996d4c5edb54ffd5090a4fa6f0cd2a116d117d87
