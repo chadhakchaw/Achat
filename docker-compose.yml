@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     environment:
       - MYSQL_ROOT_PASSWORD=passpass
-      - MYSQL_DATABASE=khaddemApp
+      - MYSQL_DATABASE=achatApp
     ports:
       - 3306:3306
     volumes:
