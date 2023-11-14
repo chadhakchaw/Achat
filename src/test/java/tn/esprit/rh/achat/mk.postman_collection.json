@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "e335b723-e10b-4805-960a-9a7db59b5eb7",
+		"name": "achat test mk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24288972"
+	},
+	"item": [
+		{
+			"name": "add secteur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nom\": \"EM\",\r\n  \"description\": \"Secteur d'activité lié à l'informatique et à la technologie\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8089/SpringMVC/secteurActivite/add-secteurActivite"
+			},
+			"response": []
+		},
+		{
+			"name": "get all secteur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8089/SpringMVC/secteurActivite/retrieve-all-secteurActivite"
+			},
+			"response": []
+		}
+	]
+}
