@@ -1,6 +1,6 @@
 package tn.esprit.rh.achat.controllers;
 
-import io.swagger.annotations.Api;
+//import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.rh.achat.entities.Produit;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin("*")
-@Api(tags = "Gestion des produits")
+//@Api(tags = "Gestion des produits")
 @RequestMapping("/produit")
 public class ProduitRestController {
 

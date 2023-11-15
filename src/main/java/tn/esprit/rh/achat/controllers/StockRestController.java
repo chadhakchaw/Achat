@@ -1,7 +1,7 @@
 package tn.esprit.rh.achat.controllers;
 
 
-import io.swagger.annotations.Api;
+//import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.rh.achat.entities.Stock;
@@ -10,7 +10,7 @@ import tn.esprit.rh.achat.services.IStockService;
 import java.util.List;
 
 @RestController
-@Api(tags = "Gestion des stocks")
+//@Api(tags = "Gestion des stocks")
 @RequestMapping("/stock")
 @CrossOrigin("*")
 public class StockRestController {
