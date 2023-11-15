@@ -2697,3 +2697,5 @@ w
 G.idea/sonarlint/issuestore/4/9/490b8a325feb6a0c9bce8c56cdfd2673a8b96d14,b\e\beb4dd4955b9216b502b240ac4c5f9c7cf0ba446
 w
 G.idea/sonarlint/issuestore/6/8/68d51c2817abea7906eda8e400f7d0b4929c06e0,6\d\6dd4b310461eccf6a7a46ccb175510ec868e04d5
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
