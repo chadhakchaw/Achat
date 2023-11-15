@@ -2,7 +2,7 @@ version: "3.9"
 services:
   devops:
     container_name: devops
-    image: "molkakawech/achat:1.0"
+    image: "molkakawech/devopsapp:1.0.0"
     build: .
     ports:
       - "8089:8089"
