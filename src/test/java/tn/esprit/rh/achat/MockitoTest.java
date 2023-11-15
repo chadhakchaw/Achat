@@ -42,7 +42,7 @@ public class MockitoTest {
 
     private StockServiceImpl service;
     private StockRepository repository;
-//    private MockMvc mockMvc;
+//    private MockMvc mockMvc;fffff
 //    ObjectMapper objectMapper = new ObjectMapper();
 //    ObjectWriter objectWriter = objectMapper.writer();
 //@Mock

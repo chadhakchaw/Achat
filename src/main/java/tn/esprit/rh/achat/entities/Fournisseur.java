@@ -27,7 +27,7 @@ import lombok.Setter;
 public class Fournisseur implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
+//test
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idFournisseur;
