@@ -136,7 +136,9 @@
 					<version>10.2.1.78527</version>
 				</plugin>
 			</plugins>
+
 		</pluginManagement>
+		<finalName>timesheetdevops</finalName>
 	</build>
 
 </project>
